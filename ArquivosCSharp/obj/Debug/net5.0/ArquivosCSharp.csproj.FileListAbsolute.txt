@@ -1,0 +1,16 @@
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.exe
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.deps.json
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.runtimeconfig.json
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.runtimeconfig.dev.json
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.dll
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ref\ArquivosCSharp.dll
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\bin\Debug\net5.0\ArquivosCSharp.pdb
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.csproj.AssemblyReference.cache
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.AssemblyInfoInputs.cache
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.AssemblyInfo.cs
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.csproj.CoreCompileInputs.cache
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.dll
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ref\ArquivosCSharp.dll
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.pdb
+C:\Repositorios\Estudos\SchoolOfNet\Arquivos\ArquivosCSharp\obj\Debug\net5.0\ArquivosCSharp.genruntimeconfig.cache
