@@ -1,0 +1,1 @@
+Conjunto de classes que compõe serviços de acesso a dados para desenvolvedores do .Net Framework.s
