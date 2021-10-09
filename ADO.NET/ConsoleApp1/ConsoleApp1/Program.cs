@@ -7,24 +7,40 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string connString = "Server=DESKTOP-K7BEBRC\\SQLEXPRESS;Database=CSharpAdoNet;Trusted_Connection = True";
-            SqlConnection conn = new SqlConnection(connString);
-            conn.Open();
-            SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "select * from clientes order by id";
+            ListarCliente();
+            ReadLine();
+        }
 
-            SqlDataReader dr = cmd.ExecuteReader();
-
-            while (dr.Read())
+        static void ListarCliente()
+        {
+            string connString = getStringConn();
+            using (SqlConnection conn = new SqlConnection(connString))
             {
-                WriteLine("ID: {0}", dr["id"]);
-                WriteLine("Nome: {0}", dr["nome"]);
-                WriteLine("E-mail: {0}", dr["email"]);
-                WriteLine("----------------------");
-            }
-            conn.Close();
+                conn.Open();
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = "select * from clientes order by id";
 
-           ReadLine();
+                using(SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        WriteLine("ID: {0}", dr["id"]);
+                        WriteLine("Nome: {0}", dr["nome"]);
+                        WriteLine("------------------------");
+                    }
+                }
+
+            }
+        }
+
+        static string getStringConn()
+        {
+            string connString = "Server=DESKTOP-K7BEBRC\\SQLEXPRESS;Database=CSharpAdoNet;Trusted_Connection = True";
+            return connString;
         }
     }
 }
+
+
+
+
