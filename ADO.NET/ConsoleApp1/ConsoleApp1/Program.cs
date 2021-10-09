@@ -7,10 +7,24 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string connString = "Server=DESKTOP-K7BEBRC\\SQLEXPRESS;Database=CSharpAdoNet;User Id=sa;Password=20101914nm";
+            string connString = "Server=DESKTOP-K7BEBRC\\SQLEXPRESS;Database=CSharpAdoNet;Trusted_Connection = True";
             SqlConnection conn = new SqlConnection(connString);
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = "select * from clientes order by id";
 
-            WriteLine(conn);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            while (dr.Read())
+            {
+                WriteLine("ID: {0}", dr["id"]);
+                WriteLine("Nome: {0}", dr["nome"]);
+                WriteLine("E-mail: {0}", dr["email"]);
+                WriteLine("----------------------");
+            }
+            conn.Close();
+
+           ReadLine();
         }
     }
 }
